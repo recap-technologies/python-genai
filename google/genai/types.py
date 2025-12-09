@@ -271,8 +271,12 @@ class ThinkingLevel(_common.CaseInSensitiveEnum):
 
   THINKING_LEVEL_UNSPECIFIED = 'THINKING_LEVEL_UNSPECIFIED'
   """Default value."""
+  MINIMAL = 'MINIMAL'
+  """Minimal thinking level."""
   LOW = 'LOW'
   """Low thinking level."""
+  MEDIUM = 'MEDIUM'
+  """Medium thinking level."""
   HIGH = 'HIGH'
   """High thinking level."""
 
